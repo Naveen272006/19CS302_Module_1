@@ -1,35 +1,39 @@
-# EX 3 C program to find number of years based on principle,rate & simple interest.
+# EX 4 C program to read the age of a person and determine whether he is eligible for marriage (eligible if age ≥ 21).
 
 ## DATE:
 
 ## AIM:
-To write a C program to find number of years based on principle,rate & simple interest.
+To write a C program to read the age of a person and determine whether he is eligible for marriage (eligible if age ≥ 21).
 
 ## Algorithm
 1. Start. 
-2. Declare the variables. 
+2. Declare a variable value of type char. 
 3. Prompt the user to enter a value. 
 4. Read the value using scanf. 
-5. Calculate the number of years using the formula: 
-6. End .    
+5. Check eligible for marriage. 
+6. If age >= 21, print "Eligible". 
+7. If false, print " Not Eligible". 
+8. End.   
 
 ## Program:
 ```
-#include <stdio.h> 
-#include <math.h> 
-int main() 
+#include<stdio.h> 
+int main(){ 
+char p1; 
+scanf("%c", &p1); 
+if(p1>=21) 
 { 
-float p,n,r,si,ci; 
-scanf("%f%f%f", &p,&n,&r); 
-si=((p*n*r)/100); 
-ci=(p)*(pow((1+ r/100),n)); 
-printf("Simple Interest = %0.2f\nCompound Interest = %0.2f", si,ci); 
+printf("Eligible"); 
+}else{
+printf("Not Eligible");
 return 0; 
 }
+}
 ```
-## Output:
-![image](https://github.com/user-attachments/assets/fc4e3c25-2b86-451b-9ed7-a7b0692f4185)
 
+## Output:
+
+![Screenshot 2025-05-12 102240](https://github.com/user-attachments/assets/ecd32329-b311-4e50-b030-af87b25baaaf)
 
 
 ## Result:
