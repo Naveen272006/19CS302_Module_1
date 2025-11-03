@@ -1,5 +1,7 @@
 # EX 2 C program to check whether the attendance is PRESENT using simple if statement.
 
+## DATE: 
+
 ## AIM:
 To write a program to check whether the attendance is PRESENT using simple if statement.
 
@@ -11,7 +13,7 @@ To write a program to check whether the attendance is PRESENT using simple if st
 5. Check whether the attendance is PRESENT. 
 6. If true, print "Present". 
 7. If false, print " ". 
-8. End.   
+8. End.  
 
 ## Program:
 ```
@@ -26,11 +28,9 @@ printf("Present");
 return 0; 
 }
 ```
-
 ## Output:
-<img width="593" height="186" alt="image" src="https://github.com/user-attachments/assets/70d64ec9-9b4c-4bb8-8d6f-68ebb26155ca" />
 
-
+![image](https://github.com/user-attachments/assets/c55b68e3-a4c1-4900-8b39-ad6bebe7a64b)
 
 ## Result:
 Thus the program was executed and the output was verified successfully.
