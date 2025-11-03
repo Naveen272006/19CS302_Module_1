@@ -1,5 +1,7 @@
 # EX 4 C program to read the age of a person and determine whether he is eligible for marriage (eligible if age ≥ 21).
 
+## DATE:
+
 ## AIM:
 To write a C program to read the age of a person and determine whether he is eligible for marriage (eligible if age ≥ 21).
 
@@ -12,7 +14,6 @@ To write a C program to read the age of a person and determine whether he is eli
 6. If age >= 21, print "Eligible". 
 7. If false, print " Not Eligible". 
 8. End.   
-
 
 ## Program:
 ```
@@ -32,7 +33,7 @@ return 0;
 
 ## Output:
 
-<img width="774" height="163" alt="image" src="https://github.com/user-attachments/assets/e940fbdf-5955-4c6b-baf0-e4e8fd500b35" />
+![Screenshot 2025-05-12 102240](https://github.com/user-attachments/assets/ecd32329-b311-4e50-b030-af87b25baaaf)
 
 
 ## Result:
